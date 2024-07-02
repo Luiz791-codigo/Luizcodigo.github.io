@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "fire sans";
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "fire sans";
+  src: url("/font/FiraSans-Regular.ttf");
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.subtitulo {
+  font-size: 6rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  max-width: 4ch;
+}

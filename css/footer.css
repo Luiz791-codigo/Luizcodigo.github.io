@@ -1,0 +1,49 @@
+.backgroud2 {
+  background-color: #000;
+}
+
+.rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 20px 60px 20px;
+  gap: 100px;
+  align-items: center;
+}
+.disponibilidade {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  max-width: 40ch;
+}
+.direito {
+  font-size: 1, 125rem;
+  color: #8f8f8f;
+  grid-column: 1/ -1;
+}
+.contato {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.contato li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .rodape {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-self: center;
+  }
+  .disponibilidade {
+    font-size: 1.25rem;
+    margin: 0px;
+    max-width: 35ch;
+  }
+  .contato {
+    font-size: 1.25rem;
+  }
+  .direito {
+    margin-top: 10px;
+  }
+}

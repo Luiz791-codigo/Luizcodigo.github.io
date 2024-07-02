@@ -1,0 +1,92 @@
+.introducao {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 100px;
+  padding: 40px 20px;
+}
+h1 {
+  position: relative;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+  font-weight: lighter;
+}
+.introducao h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("./decoração.svg") no-repeat center;
+  left: -42px;
+  top: -5px;
+  z-index: -1;
+}
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 3.5rem;
+  }
+  .introducao h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(".//decoração2.svg") no-repeat center;
+    left: -8px;
+    top: -1px;
+    z-index: -1;
+  }
+}
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao h1::before {
+    top: -2px;
+    left: -10px;
+  }
+}
+@media (max-width: 800px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .introducao h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 52px;
+    height: 30px;
+    background: url("/css/Rectangle\ 1.svg") no-repeat center;
+    left: -8px;
+    top: -15px;
+    z-index: -1;
+  }
+}
+@media (max-width: 400px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao img {
+    display: none;
+  }
+}

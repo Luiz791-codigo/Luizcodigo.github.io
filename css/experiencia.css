@@ -1,0 +1,119 @@
+.experiencia {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  align-items: center;
+  gap: 100px;
+  padding: 40px 20px;
+  position: relative;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.experiencia .subtitulo {
+  color: #e0e0e0;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  line-height: 1.1;
+  max-width: 6ch;
+  font-weight: bold;
+}
+.paragr strong {
+  color: #141414;
+}
+.icone {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.paragr {
+  color: #525252;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  max-width: 40ch;
+  line-height: 1.33;
+}
+.ano {
+  position: absolute;
+  left: -90px;
+  top: 40px;
+}
+.projeto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 10px;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+
+  text-align: left;
+  border-radius: 4px;
+  align-items: center;
+  position: relative;
+}
+.projeto .icone::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#2870b1, #40d6e0);
+  background-repeat: no-repeat;
+  display: block;
+  left: -5px;
+}
+
+.projeto .para {
+  font-size: 0.875rem;
+  max-width: 40ch;
+  line-height: 1.1;
+}
+
+.tecno {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+.tecno a {
+  background-color: #fff;
+  justify-content: center;
+  font-size: 0.875rem;
+  padding: 5px 10px;
+  line-height: 1.4;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .para {
+    font-size: 1.25rem;
+  }
+
+  .experiencia .subtitulo {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    max-width: initial;
+    color: #000;
+    text-transform: initial;
+  }
+  .ano {
+    position: initial;
+    order: 1;
+  }
+  .ano::before {
+    content: "Ano: ";
+  }
+}
+@media (max-width: 400px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+  .experiencia .subtitulo {
+    font-size: 2.5rem;
+  }
+}
