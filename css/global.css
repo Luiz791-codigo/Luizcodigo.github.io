@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: "fire sans";
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #141414;
 }
 img {
   max-width: 100%;
@@ -20,11 +21,11 @@ p {
   margin: 0px;
   padding: 0px;
 }
-@font-face {
+/* @font-face {
   font-family: "fire sans";
   src: url("/font/FiraSans-Regular.ttf");
   margin: 0px;
-}
+} */
 ul {
   margin: 0px;
   padding: 0px;
