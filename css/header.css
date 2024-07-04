@@ -1,11 +1,10 @@
-.header {
+header {
   margin: 0px auto;
   display: flex;
   max-width: 1200px;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 20px;
-  align-items: center;
 }
 
 .header-menu {
