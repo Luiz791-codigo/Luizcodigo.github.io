@@ -16,7 +16,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url("/css/decoração.svg") no-repeat center;
+  background: url("./decoração.svg") no-repeat center;
   position: absolute;
   bottom: -55px;
   left: 40px;

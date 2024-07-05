@@ -40,7 +40,7 @@ h1 {
     display: block;
     width: 60px;
     height: 60px;
-    background: url(".//decoração2.svg") no-repeat center;
+    background: url("./decoração2.svg") no-repeat center;
     left: -8px;
     top: -1px;
     z-index: -1;
@@ -72,7 +72,7 @@ h1 {
     display: block;
     width: 52px;
     height: 30px;
-    background: url("/css/Rectangle\ 1.svg") no-repeat center;
+    background: url("./Rectangle\ 1.svg") no-repeat center;
     left: -8px;
     top: -15px;
     z-index: -1;
